@@ -43,4 +43,9 @@ particlesJS("particles-js", {
       }
     }
   });
+
+  document.getElementById('smartToggleBtn').addEventListener('click', () => {
+    const popup = document.getElementById('smartPopup');
+    popup.style.display = popup.style.display === 'block' ? 'none' : 'block';
+  });
   
