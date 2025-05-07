@@ -48,4 +48,9 @@ particlesJS("particles-js", {
     const popup = document.getElementById('smartPopup');
     popup.style.display = popup.style.display === 'block' ? 'none' : 'block';
   });
+
+  const backToTop = document.getElementById("backToTop");
+  backToTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
   
