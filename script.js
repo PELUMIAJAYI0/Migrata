@@ -5,6 +5,8 @@ hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('open');
 });
 
+
+
 // Set active link on load
 const navItems = document.querySelectorAll('.nav-link');
 navItems.forEach(link => {
@@ -53,4 +55,6 @@ particlesJS("particles-js", {
   backToTop.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+  
+
   

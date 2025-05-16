@@ -11,6 +11,8 @@ body {
     background: #f7f8fc;
 }
 
+
+
 /* Navbar Styles */
 .navbar {
     display: flex;
@@ -901,5 +903,7 @@ body {
       gap: 0.5rem;
     }
   }
+
+  
 
   
