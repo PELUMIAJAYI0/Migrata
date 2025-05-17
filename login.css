@@ -75,7 +75,7 @@ body {
   margin-bottom: 1rem;
   border-radius: 20px;
   animation: float 6s ease-in-out infinite;
-  
+
 }
 
 @keyframes float {
@@ -248,3 +248,82 @@ button.social {
 button.google { background-color: #db4437; }
 button.facebook { background-color: #3b5998; }
 button.twitter { background-color: #1da1f2; }
+
+/* Add to the bottom of your existing CSS */
+
+/* Small devices (phones, 320px to 480px) */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 1.5rem 1rem;
+    box-shadow: none;
+  }
+
+  .form-toggle button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  input,
+  button[type="submit"] {
+    font-size: 0.95rem;
+  }
+
+  .logo,
+  .tagline {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .logo-img,
+  .logo-header {
+    width: 80px;
+    height: 80px;
+  }
+
+  button.social {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+  }
+}
+
+/* Medium devices (tablets, 481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    width: 80%;
+    padding: 2rem 1.5rem;
+  }
+
+  .form-toggle button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+
+  input,
+  button[type="submit"] {
+    font-size: 1rem;
+  }
+
+  .logo-img,
+  .logo-header {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/* Large devices (desktops/laptops, 769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    width: 60%;
+    padding: 2rem;
+  }
+}
+
+/* Extra-large screens (more than 1024px) */
+@media (min-width: 1025px) {
+  .container {
+    max-width: 400px;
+    padding: 2rem;
+  }
+}
+
